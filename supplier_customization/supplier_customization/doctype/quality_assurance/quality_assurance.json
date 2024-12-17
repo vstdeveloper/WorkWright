@@ -1,0 +1,42 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-12-10 13:14:14.603719",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "m_name",
+  "process_quality_level",
+  "c_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "m_name",
+   "fieldtype": "Data",
+   "label": "Process Method Name"
+  },
+  {
+   "fieldname": "process_quality_level",
+   "fieldtype": "Int",
+   "label": "Process Quality Level"
+  },
+  {
+   "fieldname": "c_name",
+   "fieldtype": "Attach Image",
+   "label": "Certificate Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-12-10 13:18:33.862073",
+ "modified_by": "Administrator",
+ "module": "supplier customization",
+ "name": "Quality Assurance",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
